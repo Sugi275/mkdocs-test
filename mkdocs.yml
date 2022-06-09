@@ -2,10 +2,8 @@ site_name: JP Contents Hub
 docs_dir: "content"
 nav:
   - 日本語ワークショップ: index.md
-  - About: about.md
 theme:
   name: material
-  language: "ja"
   features:
     - search.highlight
     - search.suggest
@@ -22,3 +20,15 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
+extra:
+  generator: false
+plugins:
+  - search:
+      separator: '[\s\-\.\,\(\)]+'
+      lang:
+        - en
+        - ja
+markdown_extensions:
+  - meta

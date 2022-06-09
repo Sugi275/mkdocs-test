@@ -1,19 +1,10 @@
-# Welcome to MkDocs
+# 日本語ワークショップ
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).  
-この文章は見えるでしょうか。  
-ECS 初心者向けハンズオン  
+Amazon Web Services(AWS) の 日本語ワークショップやハンズオンを、カテゴリごとにまとめています。  
+右側の目次や、ヘッダー部分の検索ボックスから、各コンテンツにたどり着けます。  
+また、**Ctrl + F** や **command + F** を使ったページ内検索もご活用いただけます。
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Analytics
+- スケーラブルウェブサイト構築ハンズオン  
+AWS 上 でスケーラブルな Web システムの構築を体験するハンズオンです。WordPress を EC2 で稼働しながら、スケーラブルな構成を体験できます。  
+Tag : Amazon EC2, Amazon RDS, Elastic Load Balancing(ELB)
