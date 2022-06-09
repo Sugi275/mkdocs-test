@@ -6,3 +6,19 @@ nav:
 theme:
   name: material
   language: "ja"
+  features:
+    - search.highlight
+    - search.suggest
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to light mode
