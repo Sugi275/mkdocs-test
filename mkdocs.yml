@@ -1,0 +1,8 @@
+site_name: JP Contents Hub
+docs_dir: "content"
+nav:
+  - 日本語ワークショップ: index.md
+  - About: about.md
+theme:
+  name: material
+  language: "ja"
