@@ -1,12 +1,18 @@
 site_name: JP Contents Hub
 docs_dir: "content"
 nav:
-  - 日本語ワークショップ: index.md
+  - AWS 日本語ワークショップ: index.md
 theme:
   name: material
+  custom_dir: overrides
+  # language は ja を指定しないほうが検索精度が良い
+  # language: "ja"
   features:
     - search.highlight
     - search.suggest
+    # - navigation.tabs
+    - toc.integrate
+    - navigation.top
   palette:
     - scheme: default
       primary: indigo
@@ -26,9 +32,7 @@ extra:
   generator: false
 plugins:
   - search:
-      separator: '[\s\-\.\,\(\)]+'
+      separator: '[\s\-\.\,\(\)　、。，．がのをにへとでやかもるな「」『』・]+'
       lang:
-        - en
         - ja
-markdown_extensions:
-  - meta
+        - en
