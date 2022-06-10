@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#_1" class="md-skip">
+        <a href="#aws" class="md-skip">
           Skip to content
         </a>
       
@@ -76,64 +76,105 @@
     </div>
     
     
-      
+      <!--
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
 
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine class according to configuration -->
+
+
+
+<!-- Header -->
 <header class="md-header" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="JP Contents Hub" class="md-header__button md-logo" aria-label="JP Contents Hub" data-md-component="logo">
-      
+    <nav class="md-header__inner md-grid" aria-label="Header">
+
+        <!-- Link to home -->
+        <a href="." title="JP Contents Hub"
+            class="md-header__button md-logo" aria-label="JP Contents Hub" data-md-component="logo">
+            
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            JP Contents Hub
-          </span>
+        </a>
+
+        <!-- Button to open drawer -->
+        <label class="md-header__button md-icon" for="__drawer">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+        </label>
+
+        <!-- Header title -->
+        <div class="md-header__title" data-md-component="header-title">
+            <div class="md-header__ellipsis">
+                <div class="md-header__topic">
+                    <span class="md-ellipsis">
+                        JP Contents Hub
+                    </span>
+                </div>
+            </div>
         </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
+
+        <!-- Color palette -->
+        
+        <form class="md-header__option" data-md-component="palette">
             
-              日本語ワークショップ
             
-          </span>
-        </div>
-      </div>
-    </div>
-    
-      <form class="md-header__option" data-md-component="palette">
-        
-          
-          
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
-          
-            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="default"
+                data-md-color-primary="indigo" data-md-color-accent="indigo" 
+                aria-label="Switch to dark mode"  type="radio"
+                name="__palette" id="__palette_1" />
+            
+            <label class="md-header__button md-icon" title="Switch to dark mode"
+                for="__palette_2" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
             </label>
-          
-        
-          
-          
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
-          
-            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            
+            
+            
+            
+            <input class="md-option" data-md-color-media="" data-md-color-scheme="slate"
+                data-md-color-primary="indigo" data-md-color-accent="indigo" 
+                aria-label="Switch to light mode"  type="radio"
+                name="__palette" id="__palette_2" />
+            
+            <label class="md-header__button md-icon" title="Switch to light mode"
+                for="__palette_1" hidden>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
             </label>
-          
+            
+            
+        </form>
         
-      </form>
-    
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+
+        <!-- Site language selector -->
+        
+
+        <!-- Button to open search modal -->
+        
+        <label class="md-header__button md-icon" for="__search">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        </label>
+
+        <!-- Search interface -->
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -164,10 +205,14 @@
     </div>
   </div>
 </div>
+        
+
+        <!-- Repository information -->
+        
+    </nav>
+
+    <!-- Navigation tabs (sticky) -->
     
-    
-  </nav>
-  
 </header>
     
     <div class="md-container" data-md-component="container">
@@ -188,7 +233,9 @@
                     
 
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  
+
+<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="JP Contents Hub" class="md-nav__button md-logo" aria-label="JP Contents Hub" data-md-component="logo">
       
@@ -219,12 +266,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          日本語ワークショップ
+          AWS 日本語ワークショップ
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="." class="md-nav__link md-nav__link--active">
-        日本語ワークショップ
+        AWS 日本語ワークショップ
       </a>
       
         
@@ -249,6 +296,174 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#application-integration" class="md-nav__link">
+    Application Integration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ar-vr" class="md-nav__link">
+    AR &amp; VR
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aws-cost-management" class="md-nav__link">
+    AWS Cost Management
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blockchain" class="md-nav__link">
+    Blockchain
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-applications" class="md-nav__link">
+    Business Applications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compute" class="md-nav__link">
+    Compute
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#containers" class="md-nav__link">
+    Containers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#customer-enablement" class="md-nav__link">
+    Customer Enablement
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#database" class="md-nav__link">
+    Database
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developer-tools" class="md-nav__link">
+    Developer Tools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#end-user-computing" class="md-nav__link">
+    End User Computing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#front-end-web-mobile" class="md-nav__link">
+    Front-end Web &amp; Mobile
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game-development" class="md-nav__link">
+    Game Development
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#internet-of-things" class="md-nav__link">
+    Internet of Things
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#machine-learning" class="md-nav__link">
+    Machine Learning
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#management-governance" class="md-nav__link">
+    Management &amp; Governance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#media-services" class="md-nav__link">
+    Media Services
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#migration-transfer" class="md-nav__link">
+    Migration &amp; Transfer
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#networking-content-delivery" class="md-nav__link">
+    Networking &amp; Content Delivery
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quantum-technologies" class="md-nav__link">
+    Quantum Technologies
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robotics" class="md-nav__link">
+    Robotics
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#satellite" class="md-nav__link">
+    Satellite
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security-identity-compliance" class="md-nav__link">
+    Security, Identity, &amp; Compliance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage" class="md-nav__link">
+    Storage
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -264,39 +479,6 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#analytics" class="md-nav__link">
-    Analytics
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
@@ -304,22 +486,102 @@
                 
 
 
-<h1 id="_1">日本語ワークショップ</h1>
+<h1 id="aws">AWS 日本語ワークショップ</h1>
 <p>Amazon Web Services(AWS) の 日本語ワークショップやハンズオンを、カテゴリごとにまとめています。<br />
 右側の目次や、ヘッダー部分の検索ボックスから、各コンテンツにたどり着けます。<br />
-また、<strong>Ctrl + F</strong> や <strong>command + F</strong> を使ったページ内検索もご活用いただけます。</p>
+また、Ctrl + F や command + F を使ったページ内検索もご活用いただけます。</p>
 <h2 id="analytics">Analytics</h2>
+<p>TODO UPDATE</p>
+<h2 id="application-integration">Application Integration</h2>
+<p>TODO UPDATE</p>
+<h2 id="ar-vr">AR &amp; VR</h2>
+<p>TODO UPDATE</p>
+<h2 id="aws-cost-management">AWS Cost Management</h2>
+<p>TODO UPDATE</p>
+<h2 id="blockchain">Blockchain</h2>
+<p>TODO UPDATE</p>
+<h2 id="business-applications">Business Applications</h2>
+<p>TODO UPDATE</p>
+<h2 id="compute">Compute</h2>
 <ul>
-<li>スケーラブルウェブサイト構築ハンズオン<br />
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/47782ec0-8e8c-41e8-b873-9da91e822b36/">スケーラブルウェブサイト構築ハンズオン</a><br />
 AWS 上 でスケーラブルな Web システムの構築を体験するハンズオンです。WordPress を EC2 で稼働しながら、スケーラブルな構成を体験できます。<br />
 Tag : Amazon EC2, Amazon RDS, Elastic Load Balancing(ELB)</li>
 </ul>
+<h2 id="containers">Containers</h2>
+<p>TODO UPDATE</p>
+<h2 id="customer-enablement">Customer Enablement</h2>
+<p>TODO UPDATE</p>
+<h2 id="database">Database</h2>
+<p>TODO UPDATE</p>
+<h2 id="developer-tools">Developer Tools</h2>
+<p>TODO UPDATE</p>
+<h2 id="end-user-computing">End User Computing</h2>
+<p>TODO UPDATE</p>
+<h2 id="front-end-web-mobile">Front-end Web &amp; Mobile</h2>
+<p>TODO UPDATE</p>
+<h2 id="game-development">Game Development</h2>
+<ul>
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/bccf7c14-8f6f-441b-a4ff-fd6a2b402892/ja-JP">Amazon GameLift Realtime Server Workshop</a><br />
+このワークショップでは、Unity と Amazon GameLift Realtime Server を利用して、サンプルのマルチプレイヤーゲームの開発を体験できます。<br />
+Tag : Amazon GameLift  </li>
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/1f1e1c90-886b-47c7-a5bd-cb6fb26a3c37/ja-JP">Game Development on AWS Workshop</a><br />
+このWorkshopでは、AWS上でのゲーム開発を実際に体験し、構成を確認したり改変を行います。Jenkins をつかった CI/CD パイプライン、Perforce を使ったリポジトリ、NICE DVC を使ったワークステーション、ビルド用インスタンスをつかいながら、Unreal Engine 4 の開発を体験できます。<br />
+Tag : Game Development, Amazon EC2  </li>
+</ul>
+<h2 id="internet-of-things">Internet of Things</h2>
+<ul>
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/b3e0b830-79b8-4c1d-8a4c-e10406600035/ja-JP">AWS IoT Core 初級ハンズオン</a><br />
+AWS IoT Core の基本的な機能や、他のAWSサービスとの連携方法、デバイス側でのSDKや証明書の使い方など、IoTデバイスからAWSへ接続、データをアップロードし、活用するための手順を一通り学ぶことができます。<br />
+Tag : AWS IoT Core, Amazon Kinesis Data Streams, Amazon OpenSearch Service, Amazon Kinesis Data Firehose  </li>
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/90cbb951-dbf8-4f66-b994-c74072f2232c/ja-JP">AWS IoT Device Defender ハンズオン</a><br />
+AWS IoT Device Defenderでは、決められた内容を監査する仕組みと、メトリックスを元に、デバイスの挙動を判定する仕組みがあります。<br/>このハンズオンでは、両方の仕組みを体験できる内容となっており、増えていくデバイスの設定がゆるくなってしまったことを検出したり、複数の条件を満たすような挙動をしているデバイスを検出する方法について体験していただくことが出来ます。<br />
+Tag : AWS IoT Device Defender, AWS IoT Core, AWS IoT Device Management  </li>
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/4ae2dd76-c365-42e4-b66b-ed475363d562/ja-JP">AWS IoT Events 初級ハンズオン</a><br />
+このハンズオンでは AWS IoT Eventsを導入するにあたり、GUIで構築する検知器の作成方法について、実際に手を動かしながら2時間程度で学ぶことができます。ハンズオンでは擬似的なデバイスとしてCloud9を利用しますので、ブラウザがあればすぐにでもこのハンズオンを試すことが出来ます。このハンズオンを体験することで、基本的な使い方を理解し、デバイスの接続状況の監視を行う仕組みを簡単に作成することができます。<br />
+Tag : AWS IoT Events, AWS IoT Core  </li>
+</ul>
+<h2 id="machine-learning">Machine Learning</h2>
+<ul>
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/03f7e662-e3b1-4c5b-8fbe-b6af0c00c7b2/ja-JP">AWS DeepRacer Workshop</a><br />
+AWS DeepRacer の強化学習モデルを作る方法を学ぶハンズオンです。AWS DeepRacer について理解し、タイムトライアルモデルを作成・改善する方法を体験できます。<br />
+Tag : AWS DeepRacer  </li>
+</ul>
+<h2 id="management-governance">Management &amp; Governance</h2>
+<ul>
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/b97f7cb6-0ec4-41c7-97ea-c4156f4f1e0d/ja-JP">Systems Manager &amp; QuickSight ハンズオン</a><br />
+このハンズオンでは Amazon EC2 インスタンスを作成し、これに含まれるソフトウェア構成情報を AWS Systems Manager (SSM) を用いて収集、さらに Amazon QuickSight での可視化を行います。<br />
+Tag : AWS Systems Manager (SSM), Amazon QuickSight  </li>
+</ul>
+<h2 id="media-services">Media Services</h2>
+<ul>
+<li><a href="https://aws-mediaservices-jp.workshop.aws/introduction.html">AWSで動画配信をはじめよう</a><br />
+AWS Elemental Media Services のハンズオンです。 このコンテンツではよくあるユースケースに沿って、手を動かしながらライブストリーミング（Live Straeming）配信、ビデオオンデマンド（VOD）配信の基本を学習いただけます。<br />
+Tag : AWS Elemental MediaLive, AWS Elemental MediaPackage, AWS Elemental MediaStore, AWS Elemental MediaTailor, AWS Elemental MediaConvert, Amazon CloudFront  </li>
+</ul>
+<h2 id="migration-transfer">Migration &amp; Transfer</h2>
+<h2 id="networking-content-delivery">Networking &amp; Content Delivery</h2>
+<ul>
+<li><a href="https://catalog.us-east-1.prod.workshops.aws/workshops/be2b90c2-06a1-4ae6-84b3-c705049d2b6f/ja-JP/">AWS Client VPN Basic ハンズオン</a><br />
+このハンズオンでは、AWS Client VPN を用いた様々な構成を体験することができます<br />
+Tag : AWS Client VPN  </li>
+</ul>
+<h2 id="quantum-technologies">Quantum Technologies</h2>
+<h2 id="robotics">Robotics</h2>
+<h2 id="satellite">Satellite</h2>
+<h2 id="security-identity-compliance">Security, Identity, &amp; Compliance</h2>
+<h2 id="storage">Storage</h2>
 
               
             </article>
             
           </div>
         </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
         
       </main>
       
@@ -340,7 +602,7 @@ Tag : Amazon EC2, Amazon RDS, Elastic Load Balancing(ELB)</li>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["search.highlight", "search.suggest"], "search": "assets/javascripts/workers/search.b028fd86.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["search.highlight", "search.suggest", "toc.integrate", "navigation.top"], "search": "assets/javascripts/workers/search.b028fd86.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
       <script src="assets/javascripts/bundle.f758a944.min.js"></script>
